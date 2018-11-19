@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.book-list{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+}
+.eachbook{
+    display: flex;
+    border-bottom: dashed 1px #aaa;
+}
+.number{
+    width:20px;
+    height: 20px;
+    background-color: rgb(68, 172, 172);
+    margin: auto 2px;
+    padding: auto;
+}
+.author{
+    font-size: 12px;
+    color: #aaa;
+    margin:auto 10px;
+}
+.name{
+    margin: auto 10px;
+    position: relative;
+}
+.img {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    padding:none;
+    width:80px;
+    height: 200px;
+  }
+  .name:hover .img {
+    display: block;
+  }
